@@ -12,7 +12,6 @@
   "devDependencies": {
     "browserify": "^4.1.11",
     "browserify-shim": "^3.5.0",
-    "contextify": "^0.1.8",
     "deglobalify": "^0.2.0",
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^0.7.2",
@@ -32,6 +31,7 @@
   "dependencies": {
     "velocity-animate": "^1.1.0"
   },
+  "browserify-shim": {},
   "browserify": {
     "transform": [
       "browserify-shim",
