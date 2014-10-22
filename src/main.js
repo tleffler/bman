@@ -1,7 +1,10 @@
 var hello = require("./test");
-window.jQuery = window.$ = require("jquery");
+require('./plugins');
 
-require('velocity-animate');
+var _ = require('lodash');
+var $ = require("jquery");
+
+
 
 $('.application').html(hello);
 

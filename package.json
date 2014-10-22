@@ -29,6 +29,7 @@
     "load-grunt-tasks": "^0.6.0"
   },
   "dependencies": {
+    "lodash": "^2.4.1",
     "velocity-animate": "^1.1.0"
   },
   "browserify-shim": {},
