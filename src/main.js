@@ -1,3 +1,9 @@
 var hello = require("./test");
+window.jQuery = window.$ = require("jquery");
 
-console.log(hello);
+require('velocity-animate');
+
+$('.application').html(hello);
+
+$('.application').velocity({opacity: 0.5});
+

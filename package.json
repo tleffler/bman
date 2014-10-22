@@ -24,8 +24,8 @@
     "grunt-contrib-less": "^0.11.0",
     "grunt-contrib-symlink": "^0.3.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-pioneer": "^0.1.0",
     "hbsfy": "^1.3.2",
+    "jquery": "^2.1.1",
     "load-grunt-tasks": "^0.6.0"
   },
   "dependencies": {

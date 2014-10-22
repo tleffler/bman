@@ -33,6 +33,16 @@ module.exports = function (grunt) {
       }
     },
 
+    copy: {
+      views: {
+        expand: true,
+        cwd: 'src/',
+        src: '**/*.html',
+        dest: 'dist/',
+        filter: 'isFile'
+      }
+    },
+
     clean: {
       dist: ['dist']
     },
@@ -46,6 +56,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('build', [
+    'copy',
     'browserify:dist',
     'jshint'
   ]);
